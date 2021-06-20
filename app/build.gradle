@@ -7,9 +7,9 @@ android {
     signingConfigs {
         release {
             storeFile file('C:\\Users\\avoro\\OneDrive\\AndroidStudioProjects\\Keystore\\upload-keystore.jks')
-            storePassword 'Uchechuxa1'
             keyAlias 'upload_key0'
-            keyPassword 'Uchechuxa1'
+            storePassword 'Uche1Chuxa2'
+            keyPassword 'Uche1Chuxa2'
         }
     }
     compileSdkVersion 30
