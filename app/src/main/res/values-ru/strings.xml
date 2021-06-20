@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Фонарик</string>
+    <string name="no_flash_title">Нет вспышки</string>
+    <string name="no_flash_message">Вспышка недоступна</string>
+    <string name="exit">Выйти</string>
+    <string name="strobe_tv">Стробоскоп</string>
+</resources>

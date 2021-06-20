@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+    <string name="no_flash_title">No flash</string>
+    <string name="no_flash_message">No flash available</string>
+    <string name="exit">Exit</string>
+    <string name="strobe_tv">Strobe</string>
+</resources>

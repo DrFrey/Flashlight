@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onOffButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle"
+        app:icon="@drawable/ic_round_power_settings_new_24"
+        app:iconGravity="textStart"
+        app:iconSize="80dp"
+        android:paddingStart="12dp"
+        android:paddingLeft="12dp"
+        android:onClick="flashOnOff"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/stroboSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onOffButton"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="50dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stroboSwitch"
+        android:layout_centerHorizontal="true"
+        android:text="@string/strobe_tv"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="22sp"
+        android:textColor="?colorPrimary"
+        android:paddingTop="10dp"
+        />
+
+</RelativeLayout>
